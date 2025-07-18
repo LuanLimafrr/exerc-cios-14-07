@@ -3,11 +3,11 @@ s = float(input('Digite quanto você ganha por hora: '))
 
 bruto = h*s
 
-ir = (11 / bruto) * 100
+ir = (11 * bruto) / 100
 
-inss = (8 / bruto) * 100
+inss = (8 * bruto) / 100
 
-sind = (5 / bruto) * 100
+sind = (5 * bruto) / 100
 
 liq = bruto - ir - inss - sind
 
